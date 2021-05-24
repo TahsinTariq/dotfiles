@@ -1,0 +1,19 @@
+# aliases for zsh
+
+
+# add aliases here
+# to remove aliase:
+#       unalias [alias name]
+
+alias hl='echo 'hellow''
+alias js='sudo jekyll serve'
+alias czs='cat $ZSH_CUSTOM/.zsh_alias'
+alias nzs='nano $ZSH_CUSTOM/.zsh_alias'
+alias szs='source $ZSH_CUSTOM/.zsh_alias'
+alias clr='clear'
+alias open='nautilus .'
+alias pls='sudo '
+alias gib='apt install '
+alias zconf="code ~/.zshrc"
+alias sz='source ~/.zshrc'
+

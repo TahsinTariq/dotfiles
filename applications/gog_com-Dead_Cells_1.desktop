@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Value=1.0
+Type=Application
+Name=Dead Cells
+GenericName=Dead Cells
+Comment=Dead Cells
+Icon=/work/Torrents/Dead Cells/Dead Cells/support/icon.png
+Exec="/work/Torrents/Dead Cells/Dead Cells/start.sh" ""
+Categories=Game;
+Path=/work/Torrents/Dead Cells/Dead Cells
+

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Value=1.0
+Type=Application
+Name=Celeste
+GenericName=Celeste
+Comment=Celeste
+Icon=/work/Torrents/Celeste/game/icon.png
+Exec="/work/Torrents/Celeste/start"
+Categories=Game;
+Path=/work/Torrents/Celeste
+
