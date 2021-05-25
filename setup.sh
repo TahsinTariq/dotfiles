@@ -34,12 +34,13 @@ gsettings set org.gnome.shell enabled-extensions "['user-theme@gnome-shell-exten
 gsettings set org.gnome.desktop.interface gtk-theme "Pop-nord-dark"
 gsettings set org.gnome.desktop.wm.preferences theme "Pop-nord-dark"
 gsettings set org.gnome.shell.extensions.user-theme name Pop-nord-dark
-
+gsettings set org.gnome.shell.extensions.pop-shell hint-color-rgba 'rgb(104,152,166)'
 # found using gsettings list-schemas | grep "guake" 
 # gsettings list-writable guake.keybindings.global
 # gsettings list-recursively guake.keybindings
 gsettings set guake.keybindings.local clipboard-paste '<Primary>v'
 gsettings set guake.keybindings.local clipboard-copy '<Primary>x'
+guake
 
 # ZSH
 sudo apt install zsh
