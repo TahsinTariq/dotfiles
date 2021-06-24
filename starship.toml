@@ -1,0 +1,48 @@
+scan_timeout = 10
+add_newline = true
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✖](bold red)"
+
+[conda]
+# "conda config --set changeps1 False" to turn off the default prompt modifier from conda
+symbol = " "
+format = "using [$symbol$environment](dimmed green) "
+
+
+[directory]
+# truncation_length = 1
+# truncate_to_repo = false
+style = "bold cyan bg:8 "
+format = "[$path]($style)[$read_only]($read_only_style) "
+# truncation_symbol = "…/"
+
+[git_branch]
+# always_show_remote = true
+style = "bold purple"
+format = "on [$symbol$branch]($style) "
+
+[git_status]
+style = "bold red"
+format = '([\[$all_status$ahead_behind\] ]($style))'
+untracked = '[ $count?](bold blue )'
+modified = '[ $count!](bold yellow )'
+staged = '[ $count++](bold green)'
+deleted = "[ $count🗑](bold red)"
+
+# [package]
+# disabled = true
+
+[python]
+symbol = " "
+
+# [rust]
+# symbol = " ()"
+
+[time]
+disabled = true
+format = '🕙[\[ $time \]]($style) '
+time_format = "%T"
+utc_time_offset = "-5"
+time_range = "10:00:00-14:00:00"

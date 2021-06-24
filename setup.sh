@@ -19,7 +19,12 @@ sudo apt install -y software-properties-gtk
 sudo apt install gnome-shell-extensions
 sudo apt install chrome-gnome-shell
 # might need to make a folder named ~/.themes
-#  mkdir ~/.themes
+# pop-nord-dark 
+# or Nordic:https://github.com/EliverLara/Nordic
+# mkdir ~/.themes
+# icons: https://www.gnome-look.org/s/Gnome/p/1533591
+# https://www.gnome-look.org/p/1427194/ ===> better
+# mkdir ~/.icons
 # cp -R Pop-nord-dark ~/.themes
 # ------------------
 # Or, might need to copy it over to /usr/share/themes
@@ -45,16 +50,37 @@ guake
 # ZSH
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-sudo apt install zsh-syntax-highlighting
+# The following 2 lines did not work for me
+# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# sudo apt install zsh-syntax-highlighting
+# Instead, these 2 worked
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 chsh -s $(which zsh)
+
+# installing starship
+sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
 # installing local version of openRGB
 /work/OpenRGB.AppImage
 
+# remove the weather in notifications panel : https://www.reddit.com/r/pop_os/comments/gjlbvh/tut_how_to_disable_the_weather_option_on_top_bar/
+sudo mv /usr/share/applications/org.gnome.Weather.desktop /usr/share/applications/org.gnome.Weather.desktop.disabled
+# then restart gnome shell
+killall -3 gnome-shell
+
+# remove title bar when possible: 
+# https://extensions.gnome.org/extension/1732/gtk-title-bar/
+# Hot-Corners:
+# https://extensions.gnome.org/extension/4167/custom-hot-corners-extended/
+
+
 # Symlinks
-ln -s ../.zshrc ~/
-ln -s ../.condarc ~/
-ln -s ../OpenRGB ~/.config
-ln -s ../ckb-next ~/.config
-ln -s ../applications ~/.local/share
+ln -s $(pwd)/.zshrc ~/
+ln -s $(pwd)/.zsh_alias ~/
+ln -s $(pwd)/.condarc ~/
+ln -s $(pwd)/OpenRGB ~/.config
+ln -s $(pwd)/ckb-next ~/.config
+ln -s $(pwd)/applications ~/.local/share
+ln -s $(pwd)/starship.toml ~/.config
+ln -s $(pwd)/.alacritty.yml ~/

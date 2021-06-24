@@ -9,3 +9,15 @@ rm -rf source-code-pro*
 rm 1.050R-it.zip 
 cd ~/
 fc-cache -f -v
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+unzip FiraCode.zip 
+cp *.otf ~/.fonts/
+cp *.ttf ~/.fonts/
+rm -rf *.otf
+rm -rf *.ttf
+fc-cache -f -v
+
+# other meme fonts
+# https://www.fontspace.com/category/horizon-zero-dawn
+# Zapfino
