@@ -5,7 +5,7 @@ sudo apt upgrade
 sudo apt install vulkan vulkan-utils
 sudo apt install vulkan-utils
 # Test
-vulkaninfo|less
+# vulkaninfo|less
 
 # also installing stuff for nannou
 sudo apt-get install curl build-essential python cmake pkg-config

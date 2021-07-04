@@ -1,8 +1,12 @@
 HDMI-1 Height 1080=1005
+HDMI-1 Height 1920x1080=1047
 HDMI-1 Width 1920=1872
+HDMI-1 Width 1920x1080=954
 HDMI-1 XPosition=24
+HDMI-1 XPosition 1920x1080=962
 HDMI-1 YPosition=51
-State=AAAA/wAAAAD9AAAAAAAAB1AAAAOyAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+HDMI-1 YPosition 1920x1080=29
+State=AAAA/wAAAAD9AAAAAAAAA7oAAAPcAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 
 [ColorEffects:Disabled]
 Color=56,56,56
@@ -106,18 +110,26 @@ shadeSortColumn=true
 contrast=4
 
 [MainWindow]
-HDMI-1 Height 1080=1053
-HDMI-1 Width 1920=1920
-HDMI-1 XPosition=0
-HDMI-1 YPosition=27
-State=AAAA/wAAAAD9AAAAAAAAB4AAAAO9AAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+HDMI-1 Height 1080=1047
+HDMI-1 Height 1920x1080=1047
+HDMI-1 Width 1920=954
+HDMI-1 Width 1920x1080=1912
+HDMI-1 XPosition=962
+HDMI-1 XPosition 1920x1080=4
+HDMI-1 YPosition=29
+HDMI-1 YPosition 1920x1080=29
+State=AAAA/wAAAAD9AAAAAAAAB3gAAAPYAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
 File1[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/LECTURES_fluid_mechanics/Fluid Mechanics, Lec-6.pdf
-File2[$e]=/storage/LinesLab - stoppel2019.pdf
+File2[$e]=/storage/Books/Eliot Porter, James Gleick - Nature's Chaos (2011, Open Road Integrated Media LLC).epub
+File3[$e]=/work/books/TS McNamara - Rust in Action-Manning Publications (2020).pdf
+File4[$e]=/storage/LinesLab - stoppel2019.pdf
 Name1[$e]=Fluid Mechanics, Lec-6.pdf
-Name2[$e]=LinesLab - stoppel2019.pdf
+Name2[$e]=Eliot Porter, James Gleick - Nature's Chaos (2011, Open Road Integrated Media LLC).epub
+Name3[$e]=TS McNamara - Rust in Action-Manning Publications (2020).pdf
+Name4[$e]=LinesLab - stoppel2019.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default

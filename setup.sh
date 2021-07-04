@@ -1,3 +1,14 @@
+# Symlinks
+ln -s $(pwd)/.zshrc ~/
+ln -s $(pwd)/.zsh_alias ~/
+ln -s $(pwd)/.condarc ~/
+ln -s $(pwd)/OpenRGB ~/.config
+ln -s $(pwd)/ckb-next ~/.config
+ln -s $(pwd)/applications ~/.local/share
+ln -s $(pwd)/starship.toml ~/.config
+ln -s $(pwd)/.alacritty.yml ~/
+ln -s $(pwd)/okularrc ~/.config
+
 # bash installs 
 
 sudo apt-get update
@@ -11,13 +22,13 @@ sudo apt install psensor
 sudo apt install guake
 sudo apt install ckb-next
 guake --change-palette=Nord
-sudo apt install gnome-tweak-tool 
+#sudo apt install gnome-tweak-tool 
 sudo apt install -y code
 sudo apt install -y vlc --fix-missing
 sudo apt install -y software-properties-gtk
 # to install user themes
-sudo apt install gnome-shell-extensions
-sudo apt install chrome-gnome-shell
+#sudo apt install gnome-shell-extensions
+#sudo apt install chrome-gnome-shell
 # might need to make a folder named ~/.themes
 # pop-nord-dark 
 # or Nordic:https://github.com/EliverLara/Nordic
@@ -25,6 +36,7 @@ sudo apt install chrome-gnome-shell
 # icons: https://www.gnome-look.org/s/Gnome/p/1533591
 # https://www.gnome-look.org/p/1427194/ ===> better
 # mkdir ~/.icons
+# gsettings set org.gnome.desktop.interface icon-theme NordArc-Icons
 # cp -R Pop-nord-dark ~/.themes
 # ------------------
 # Or, might need to copy it over to /usr/share/themes
@@ -34,18 +46,19 @@ sudo apt install chrome-gnome-shell
 # https://manpages.ubuntu.com/manpages/trusty/man1/gsettings.1.html
 # gsettings get org.gnome.shell enabled-extensions
 # or, gnome-extensions list or, gnome-extensions list --enabled
-gsettings set org.gnome.shell enabled-extensions "['user-theme@gnome-shell-extensions.gcampax.github.com', 'alt-tab-raise-first-window@system76.com', 'always-show-workspaces@system76.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'pop-shell@system76.com', 'pop-shop-details@system76.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'system76-power@system76.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com']"
+#gsettings set org.gnome.shell enabled-extensions "['user-theme@gnome-shell-extensions.gcampax.github.com', 'alt-tab-raise-first-window@system76.com', 'always-show-workspaces@system76.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'pop-shell@system76.com', 'pop-shop-details@system76.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'system76-power@system76.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com']"
 
-gsettings set org.gnome.desktop.interface gtk-theme "Pop-nord-dark"
-gsettings set org.gnome.desktop.wm.preferences theme "Pop-nord-dark"
-gsettings set org.gnome.shell.extensions.user-theme name Pop-nord-dark
+#gsettings set org.gnome.desktop.interface gtk-theme "Pop-nord-dark"
+#gsettings set org.gnome.desktop.wm.preferences theme "Pop-nord-dark"
+#gsettings set org.gnome.shell.extensions.user-theme name Pop-nord-dark
 gsettings set org.gnome.shell.extensions.pop-shell hint-color-rgba 'rgb(104,152,166)'
 # found using gsettings list-schemas | grep "guake" 
 # gsettings list-writable guake.keybindings.global
 # gsettings list-recursively guake.keybindings
+#guake
 gsettings set guake.keybindings.local clipboard-paste '<Primary>v'
 gsettings set guake.keybindings.local clipboard-copy '<Primary>x'
-guake
+
 
 # ZSH
 sudo apt install zsh
@@ -75,12 +88,4 @@ killall -3 gnome-shell
 # https://extensions.gnome.org/extension/4167/custom-hot-corners-extended/
 
 
-# Symlinks
-ln -s $(pwd)/.zshrc ~/
-ln -s $(pwd)/.zsh_alias ~/
-ln -s $(pwd)/.condarc ~/
-ln -s $(pwd)/OpenRGB ~/.config
-ln -s $(pwd)/ckb-next ~/.config
-ln -s $(pwd)/applications ~/.local/share
-ln -s $(pwd)/starship.toml ~/.config
-ln -s $(pwd)/.alacritty.yml ~/
+
