@@ -1,12 +1,12 @@
 HDMI-1 Height 1080=1005
 HDMI-1 Height 1920x1080=1047
 HDMI-1 Width 1920=1872
-HDMI-1 Width 1920x1080=954
+HDMI-1 Width 1920x1080=1912
 HDMI-1 XPosition=24
-HDMI-1 XPosition 1920x1080=962
+HDMI-1 XPosition 1920x1080=4
 HDMI-1 YPosition=51
 HDMI-1 YPosition 1920x1080=29
-State=AAAA/wAAAAD9AAAAAAAAA7oAAAPcAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB3gAAAP+AAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 
 [ColorEffects:Disabled]
 Color=56,56,56
@@ -111,28 +111,44 @@ contrast=4
 
 [MainWindow]
 HDMI-1 Height 1080=1047
-HDMI-1 Height 1920x1080=1047
+HDMI-1 Height 1920x1080=521
 HDMI-1 Width 1920=954
-HDMI-1 Width 1920x1080=1912
+HDMI-1 Width 1920x1080=954
 HDMI-1 XPosition=962
 HDMI-1 XPosition 1920x1080=4
 HDMI-1 YPosition=29
-HDMI-1 YPosition 1920x1080=29
-State=AAAA/wAAAAD9AAAAAAAAB3gAAAPYAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+HDMI-1 YPosition 1920x1080=554
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAAA7oAAAHwAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/LECTURES_fluid_mechanics/Fluid Mechanics, Lec-6.pdf
-File2[$e]=/storage/Books/Eliot Porter, James Gleick - Nature's Chaos (2011, Open Road Integrated Media LLC).epub
-File3[$e]=/work/books/TS McNamara - Rust in Action-Manning Publications (2020).pdf
-File4[$e]=/storage/LinesLab - stoppel2019.pdf
-Name1[$e]=Fluid Mechanics, Lec-6.pdf
-Name2[$e]=Eliot Porter, James Gleick - Nature's Chaos (2011, Open Road Integrated Media LLC).epub
-Name3[$e]=TS McNamara - Rust in Action-Manning Publications (2020).pdf
-Name4[$e]=LinesLab - stoppel2019.pdf
+File1[$e]=$HOME/Downloads/D Unit payslip.pdf
+File10[$e]=/storage/university books/Semester 5/Mathematics for Engineers/Books/Steven C. Chapra, Raymond P. Canale - Numerical Methods for Engineers-McGraw-Hill Education (2014).pdf
+File2[$e]=$HOME/Downloads/DU_Paayment_Slip_DUUGADM_2017015059_180005039762.pdf
+File3[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/Solid Mechanics/Ferdinand Beer, Jr., E. Russell Johnston, John DeWolf, David Mazurek - Mechanics of Materials-McGraw-Hill Education (2014) (1).pdf
+File4[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/Solid Mechanics/Solid Mechanics books.pdf
+File5[$e]=/storage/university books/Detail_Syllabus_2017-18_and_2018-19.pdf
+File6[$e]=/storage/university books/Semester 3/Instrumentation for Process Measurement and Control 3rd ed - Norman A. Anderson (CRC, Chilton Radnor, 1997).pdf
+File7[$e]=/storage/university books/Semester 5/Mathematics for Engineers/RME 3204-shared/Class Lectures/Interpolation_system-of-linear-equations_Integration_differentiation.pdf
+File8[$e]=/storage/university books/Semester 5/Mathematics for Engineers/RME 3204-shared/Class Lectures/Interpolation.pdf
+File9[$e]=/storage/university books/Semester 5/Mathematics for Engineers/RME 3204-shared/Class Lectures/Lec 05.pdf
+Name1[$e]=D Unit payslip.pdf
+Name10[$e]=Steven C. Chapra, Raymond P. Canale - Numerical Methods for Engineers-McGraw-Hill Education (2014).pdf
+Name2[$e]=DU_Paayment_Slip_DUUGADM_2017015059_180005039762.pdf
+Name3[$e]=Ferdinand Beer, Jr., E. Russell Johnston, John DeWolf, David Mazurek - Mechanics of Materials-McGraw-Hill Education (2014) (1).pdf
+Name4[$e]=Solid Mechanics books.pdf
+Name5[$e]=Detail_Syllabus_2017-18_and_2018-19.pdf
+Name6[$e]=Instrumentation for Process Measurement and Control 3rd ed - Norman A. Anderson (CRC, Chilton Radnor, 1997).pdf
+Name7[$e]=Interpolation_system-of-linear-equations_Integration_differentiation.pdf
+Name8[$e]=Interpolation.pdf
+Name9[$e]=Lec 05.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
+
+[Shortcuts]
+mainToolBar=Ctrl+T
 
 [WM]
 activeBackground=56,60,74

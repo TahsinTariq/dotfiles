@@ -6,6 +6,7 @@
 # https://github.com/karpathy/karpathy.github.io/blob/master/css/main.css
 # https://stackoverflow.com/questions/45477133/how-to-change-cuda-version
 # https://github.com/phohenecker/switch-cuda
+# https://ubuntu.pkgs.org/21.04/ubuntu-multiverse-amd64/nvidia-cuda-toolkit_11.2.2-1ubuntu1_amd64.deb.html
 
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin

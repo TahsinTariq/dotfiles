@@ -39,6 +39,7 @@ sudo apt autoremove
 
 # Rust and Cargo
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh 
 # if cargo doesn't work
 source "$HOME/.cargo/env"
 rustc --version

@@ -16,4 +16,4 @@ alias pls='sudo '
 alias gib='apt install '
 alias zconf="code ~/.zshrc"
 alias sz='source ~/.zshrc'
-
+alias cadmus='cd /work/backups && ./cadmus.AppImage'
