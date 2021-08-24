@@ -1,0 +1,15 @@
+~{Control_L}
+	{_}echo "rgb 00ffffff" > /tmp/ckbpipe002 && echo "rgb ff00ffff" > /tmp/ckbpipe003
+~{Control_L+~@{c,v}}
+	echo "rgb 00ffff00" > /tmp/ckbpipe002 && echo "rgb ff00ff00" > /tmp/ckbpipe003
+# {Control_L}
+# 	echo "foo"
+# @Control_L
+# 	echo "bar" 
+# Cut, copy and paste
+# ctrl + x
+#   xte "keyup x" "keyup Meta_L" "keydown Control_L" "key x" "keyup Control_L" "keydown Meta_L"
+# ctrl + c
+#   xte "keyup c" "keyup Meta_L" "keydown Control_L" "key c" "keyup Control_L" "keydown Meta_L"    
+# ctrl + v 
+#   xte "keyup v" "keyup Meta_L" "keydown Control_L" "key v" "keyup Control_L" "keydown Meta_L"

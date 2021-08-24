@@ -110,39 +110,42 @@ shadeSortColumn=true
 contrast=4
 
 [MainWindow]
+:1.0 Height 1920x1080=1047
+:1.0 Width 1920x1080=794
+:1.0 XPosition 1920x1080=1122
+:1.0 YPosition 1920x1080=29
 HDMI-1 Height 1080=1047
-HDMI-1 Height 1920x1080=521
+HDMI-1 Height 1920x1080=1047
 HDMI-1 Width 1920=954
 HDMI-1 Width 1920x1080=954
 HDMI-1 XPosition=962
-HDMI-1 XPosition 1920x1080=4
+HDMI-1 XPosition 1920x1080=962
 HDMI-1 YPosition=29
-HDMI-1 YPosition 1920x1080=554
-RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAAAAA7oAAAHwAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+HDMI-1 YPosition 1920x1080=29
+State=AAAA/wAAAAD9AAAAAAAAA7oAAAP+AAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/D Unit payslip.pdf
-File10[$e]=/storage/university books/Semester 5/Mathematics for Engineers/Books/Steven C. Chapra, Raymond P. Canale - Numerical Methods for Engineers-McGraw-Hill Education (2014).pdf
-File2[$e]=$HOME/Downloads/DU_Paayment_Slip_DUUGADM_2017015059_180005039762.pdf
-File3[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/Solid Mechanics/Ferdinand Beer, Jr., E. Russell Johnston, John DeWolf, David Mazurek - Mechanics of Materials-McGraw-Hill Education (2014) (1).pdf
-File4[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/Solid Mechanics/Solid Mechanics books.pdf
-File5[$e]=/storage/university books/Detail_Syllabus_2017-18_and_2018-19.pdf
-File6[$e]=/storage/university books/Semester 3/Instrumentation for Process Measurement and Control 3rd ed - Norman A. Anderson (CRC, Chilton Radnor, 1997).pdf
-File7[$e]=/storage/university books/Semester 5/Mathematics for Engineers/RME 3204-shared/Class Lectures/Interpolation_system-of-linear-equations_Integration_differentiation.pdf
-File8[$e]=/storage/university books/Semester 5/Mathematics for Engineers/RME 3204-shared/Class Lectures/Interpolation.pdf
-File9[$e]=/storage/university books/Semester 5/Mathematics for Engineers/RME 3204-shared/Class Lectures/Lec 05.pdf
-Name1[$e]=D Unit payslip.pdf
-Name10[$e]=Steven C. Chapra, Raymond P. Canale - Numerical Methods for Engineers-McGraw-Hill Education (2014).pdf
-Name2[$e]=DU_Paayment_Slip_DUUGADM_2017015059_180005039762.pdf
-Name3[$e]=Ferdinand Beer, Jr., E. Russell Johnston, John DeWolf, David Mazurek - Mechanics of Materials-McGraw-Hill Education (2014) (1).pdf
-Name4[$e]=Solid Mechanics books.pdf
-Name5[$e]=Detail_Syllabus_2017-18_and_2018-19.pdf
-Name6[$e]=Instrumentation for Process Measurement and Control 3rd ed - Norman A. Anderson (CRC, Chilton Radnor, 1997).pdf
-Name7[$e]=Interpolation_system-of-linear-equations_Integration_differentiation.pdf
-Name8[$e]=Interpolation.pdf
-Name9[$e]=Lec 05.pdf
+File1[$e]=/storage/university books/Semester 5/Mathematics for Engineers/Steven C. Chapra, Raymond P. Canale - Numerical Methods for Engineers-McGraw-Hill Education (2014).pdf
+File10[$e]=$HOME/Zotero/storage/BJDSFGV2/Tong et al. - 2017 - Image Super-Resolution Using Dense Skip Connection.pdf
+File2[$e]=/storage/university books/Semester 5/AI/CS 188 UC Berkeley_slides/SP14 CS188 Lecture 9 -- MDPs II.pptx.pdf
+File3[$e]=/storage/university books/Semester 5/previous questions/AMTE1.pdf
+File4[$e]=/storage/university books/Semester 5/Advanced Mechatronics/Slides/Lec_10.3_Robot programming and languages.pdf
+File5[$e]=/work/Scan/RME 3102_14010.pdf
+File6[$e]=/storage/university books/Semester 5/Semester Final Question 2018.pdf
+File7[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/Solid Mechanics/Solid Mechanics books.pdf
+File8[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/RME 3103 Review Class.pdf
+File9[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/LECTURES_fluid_mechanics/Fluid Mechanics, Lec-3.pdf
+Name1[$e]=Steven C. Chapra, Raymond P. Canale - Numerical Methods for Engineers-McGraw-Hill Education (2014).pdf
+Name10[$e]=Tong et al. - 2017 - Image Super-Resolution Using Dense Skip Connection.pdf
+Name2[$e]=SP14 CS188 Lecture 9 -- MDPs II.pptx.pdf
+Name3[$e]=AMTE1.pdf
+Name4[$e]=Lec_10.3_Robot programming and languages.pdf
+Name5[$e]=RME 3102_14010.pdf
+Name6[$e]=Semester Final Question 2018.pdf
+Name7[$e]=Solid Mechanics books.pdf
+Name8[$e]=RME 3103 Review Class.pdf
+Name9[$e]=Fluid Mechanics, Lec-3.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default

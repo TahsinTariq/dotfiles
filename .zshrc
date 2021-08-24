@@ -1,4 +1,4 @@
-export ZSH="/home/tahsin/.oh-my-zsh"
+# export ZSH="/home/tahsin/.oh-my-zsh"
 ZSH_CUSTOM="$PWD"
 export QT_QPA_PLATFORMTHEME="gtk2"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes

@@ -9,23 +9,43 @@ ln -s $(pwd)/starship.toml ~/.config
 ln -s $(pwd)/.alacritty.yml ~/
 ln -s $(pwd)/okularrc ~/.config
 
+
+# The following 2 lines did not work for me
+# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# sudo apt install zsh-syntax-highlighting
+# Instead, these 2 worked
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+sudo apt-get install qt5-style-plugins
+
+# Zotero Client install
+wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash
+sudo apt update
+sudo apt install zotero
+
+
 # bash installs 
 
 sudo apt-get update
 
-sudo apt install neofetch
-sudo apt install gparted
-sudo apt install psensor
+sudo apt install -y neofetch
+sudo apt install -y gparted
+sudo apt install -y psensor
 # sudo apt install tree
 # sudo apt install audacity
 # sudo apt install peek
-sudo apt install guake
-sudo apt install ckb-next
+sudo apt install -y guake
+sudo apt install -y ckb-next
 guake --change-palette=Nord
-#sudo apt install gnome-tweak-tool 
+sudo apt install -y gnome-tweaks
 sudo apt install -y code
 sudo apt install -y vlc --fix-missing
 sudo apt install -y software-properties-gtk
+sudo apt install -y qbittorrent obs-studio qt5-styles-plugins
+# for OBS
+sudo apt install -y v4l2loopback-dkms ffmpeg       
+
+./gnome_ext.sh
 # to install user themes
 #sudo apt install gnome-shell-extensions
 #sudo apt install chrome-gnome-shell
@@ -63,19 +83,14 @@ gsettings set guake.keybindings.local clipboard-copy '<Primary>x'
 # ZSH
 sudo apt install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-# The following 2 lines did not work for me
-# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-# sudo apt install zsh-syntax-highlighting
-# Instead, these 2 worked
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
 chsh -s $(which zsh)
 
 # installing starship
 sh -c "$(curl -fsSL https://starship.rs/install.sh)"
 
 # installing local version of openRGB
-/work/OpenRGB.AppImage
+# /work/OpenRGB.AppImage
 
 # remove the weather in notifications panel : https://www.reddit.com/r/pop_os/comments/gjlbvh/tut_how_to_disable_the_weather_option_on_top_bar/
 sudo mv /usr/share/applications/org.gnome.Weather.desktop /usr/share/applications/org.gnome.Weather.desktop.disabled
