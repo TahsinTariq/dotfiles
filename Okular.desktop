@@ -1,0 +1,10 @@
+[Desktop Entry]
+Value=1.0
+Type=Application
+Name=Okular
+GenericName=Okular
+Comment=PDF viewer
+Icon=/work/backups/okular_icon.png
+Exec=env QT_QPA_PLATFORMTHEME=gtk2 okular %U
+
+
