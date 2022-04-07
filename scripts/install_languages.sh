@@ -44,6 +44,8 @@ curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 source "$HOME/.cargo/env"
 rustc --version
 cargo --version
+rustup component add rust-src rustfmt-preview
+rustup component add rust-analysis --toolchain stable
 
 
 # Jekyll and ruby

@@ -6,3 +6,4 @@ sudo mv gnome-shell-extension-installer /usr/bin/
 
 # install extenssions by number
 gnome-shell-extension-installer 1317 4000 3193 779 4167 1732 18 19 21 7 1112 1460
+# 3499 Application Volume Mixer

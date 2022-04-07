@@ -100,6 +100,8 @@ ForegroundVisited=127,140,141
 
 [Desktop Entry]
 FullScreen=false
+shouldShowMenuBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=false
 
 [General]
 ColorScheme=Arc Dark
@@ -114,6 +116,10 @@ contrast=4
 :1.0 Width 1920x1080=794
 :1.0 XPosition 1920x1080=1122
 :1.0 YPosition 1920x1080=29
+HDMI-1 HDMI-0 Height 1920x1080=1047
+HDMI-1 HDMI-0 Width 1920x1080=954
+HDMI-1 HDMI-0 XPosition 1920x1080=2882
+HDMI-1 HDMI-0 YPosition 1920x1080=29
 HDMI-1 Height 1080=1047
 HDMI-1 Height 1920x1080=1047
 HDMI-1 Width 1920=954
@@ -125,27 +131,31 @@ HDMI-1 YPosition 1920x1080=29
 State=AAAA/wAAAAD9AAAAAAAAA7oAAAP+AAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAiAGEAbgBuAG8AdABhAHQAaQBvAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
+[Print Preview]
+HDMI-1 HDMI-0 Height 1920x1080=532
+HDMI-1 HDMI-0 Width 1920x1080=600
+
 [Recent Files]
-File1[$e]=/storage/university books/Semester 5/Mathematics for Engineers/Steven C. Chapra, Raymond P. Canale - Numerical Methods for Engineers-McGraw-Hill Education (2014).pdf
-File10[$e]=$HOME/Zotero/storage/BJDSFGV2/Tong et al. - 2017 - Image Super-Resolution Using Dense Skip Connection.pdf
-File2[$e]=/storage/university books/Semester 5/AI/CS 188 UC Berkeley_slides/SP14 CS188 Lecture 9 -- MDPs II.pptx.pdf
-File3[$e]=/storage/university books/Semester 5/previous questions/AMTE1.pdf
-File4[$e]=/storage/university books/Semester 5/Advanced Mechatronics/Slides/Lec_10.3_Robot programming and languages.pdf
-File5[$e]=/work/Scan/RME 3102_14010.pdf
-File6[$e]=/storage/university books/Semester 5/Semester Final Question 2018.pdf
-File7[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/Solid Mechanics/Solid Mechanics books.pdf
-File8[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/RME 3103 Review Class.pdf
-File9[$e]=/storage/university books/Semester 5/Mechanics of solids and fluids/LECTURES_fluid_mechanics/Fluid Mechanics, Lec-3.pdf
-Name1[$e]=Steven C. Chapra, Raymond P. Canale - Numerical Methods for Engineers-McGraw-Hill Education (2014).pdf
-Name10[$e]=Tong et al. - 2017 - Image Super-Resolution Using Dense Skip Connection.pdf
-Name2[$e]=SP14 CS188 Lecture 9 -- MDPs II.pptx.pdf
-Name3[$e]=AMTE1.pdf
-Name4[$e]=Lec_10.3_Robot programming and languages.pdf
-Name5[$e]=RME 3102_14010.pdf
-Name6[$e]=Semester Final Question 2018.pdf
-Name7[$e]=Solid Mechanics books.pdf
-Name8[$e]=RME 3103 Review Class.pdf
-Name9[$e]=Fluid Mechanics, Lec-3.pdf
+File1[$e]=/storage/university books/Semester 6/RME 2205 (Differential Equations and Coordinate Geometry)/slides/1st incourse.pdf
+File10[$e]=$HOME/Downloads/Choice-form_B56212.pdf
+File2[$e]=/storage/university books/Semester 6/RME 2205 (Differential Equations and Coordinate Geometry)/2-2 Semester Final Questions 2018.pdf
+File3[$e]=/storage/university books/Semester 6/RME 2205 (Differential Equations and Coordinate Geometry)/slides/1. Coordinate Geometry.pdf
+File4[$e]=/storage/university books/Semester 6/RME 2205 (Differential Equations and Coordinate Geometry)/slides/1. Coordinates Geometry 3D.pdf
+File5[$e]=/storage/university books/Semester 6/RME 2205 (Differential Equations and Coordinate Geometry)/slides/2. Projection 3D.pdf
+File6[$e]=/storage/university books/Semester 6/RME 2205 (Differential Equations and Coordinate Geometry)/slides/1. Introduction to Differential Equations.pdf
+File7[$e]=$HOME/Documents/AI exam files/RME 3111_14010.pdf
+File8[$e]=$HOME/Documents/RME 3105_14010.pdf
+File9[$e]=$HOME/Downloads/maths.pdf
+Name1[$e]=1st incourse.pdf
+Name10[$e]=Choice-form_B56212.pdf
+Name2[$e]=2-2 Semester Final Questions 2018.pdf
+Name3[$e]=1. Coordinate Geometry.pdf
+Name4[$e]=1. Coordinates Geometry 3D.pdf
+Name5[$e]=2. Projection 3D.pdf
+Name6[$e]=1. Introduction to Differential Equations.pdf
+Name7[$e]=RME 3111_14010.pdf
+Name8[$e]=RME 3105_14010.pdf
+Name9[$e]=maths.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default

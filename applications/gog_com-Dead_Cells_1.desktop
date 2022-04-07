@@ -5,8 +5,8 @@ Type=Application
 Name=Dead Cells
 GenericName=Dead Cells
 Comment=Dead Cells
-Icon=/work/Torrents/Dead Cells/Dead Cells/support/icon.png
-Exec="/work/Torrents/Dead Cells/Dead Cells/start.sh" ""
+Icon=/work/Torrents/Dead Cells/Dead.Cells/support/icon.png
+Exec="/work/Torrents/Dead Cells/Dead.Cells/start.sh" ""
 Categories=Game;
-Path=/work/Torrents/Dead Cells/Dead Cells
+Path=/work/Torrents/Dead Cells/Dead.Cells
 
