@@ -1,0 +1,598 @@
+    cd /work/outputs/dotfiles_new/
+./setup.sh 
+sudo apt install code --fix-missing
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cd scripts/
+./install_languages.sh 
+cd ..
+ls
+chmod +x ./gnome_ext.sh 
+./gnome_ext.sh 
+cd scripts/
+./git_setup.sh 
+./Font.sh 
+./glfw_and_p5_dependencies.sh 
+sudo apt install gnome-tweaks
+sudo apt install okular
+ls
+exa
+    
+    
+    1  19.8.2021 12:04  j some
+    2  19.8.2021 12:05  git clone git://github.com/wting/autojump.git
+    3  19.8.2021 12:06  cd autojump
+    4  19.8.2021 12:06  ./install.py
+    5  19.8.2021 12:06  cd /work/outputs/Rust_test
+    6  19.8.2021 12:06  cd
+    7  19.8.2021 12:06  j rust
+    8  19.8.2021 12:15  ls
+    9  19.8.2021 12:15  cargo install exa
+   10  19.8.2021 12:16  sudo apt install okular
+   11  19.8.2021 12:19  sudo apt install alacritty
+   12  19.8.2021 12:23  QT_QPA_PLATFORMTHEME=gtk2 okular
+   13  19.8.2021 12:24  sudo apt install qt5-styles-plugins
+   14  19.8.2021 12:25  sudo apt-get install qt5-style-plugins
+   15  19.8.2021 12:25  QT_QPA_PLATFORMTHEME=gtk2 okular
+   16  19.8.2021 12:36  cargo install ttyper
+   17  19.8.2021 12:37  QT_QPA_PLATFORMTHEME=gtk2 okular
+   18  19.8.2021 12:40  cargo install rusty-rain
+   19  19.8.2021 12:40  sudo apt install dconf-editor
+   20  19.8.2021 12:41  j rust
+   21  19.8.2021 12:41  j Rust
+   22  19.8.2021 12:41  cd /work/outputs/Rust_test
+   23  19.8.2021 12:43  cargo install hexyl
+   24  19.8.2021 12:43  cargo install cargo-modules
+   25  19.8.2021 12:43  cargo install cargo-edit
+   26  19.8.2021 17:31  cadmus
+   27  19.8.2021 18:49  sudo apt install qbittorrent
+   28  20.8.2021 10:14  sudo apt install peek
+   29  20.8.2021 10:15  sudo apt install obs-studio
+   30  20.8.2021 10:18  sudo apt install -y v4l2loopback-dkms ffmpeg\n
+   31  20.8.2021 12:40  sudo apt install gifsicle
+   32  20.8.2021 12:41  sudo apt install imagemagick
+   33  20.8.2021 12:43  which convert
+   34  20.8.2021 13:19  cadmus
+   35  21.8.2021 00:44  neofetch
+   36  21.8.2021 11:03  sudo apt install fontforge
+   37  21.8.2021 11:07  cd Downloads
+   38  21.8.2021 11:08  exa --icons
+   39  21.8.2021 11:08  ./Glyphr.Studio-0.5.6.AppImage
+   40  21.8.2021 11:08  chmod +x ./Glyphr.Studio-0.5.6.AppImage
+   41  21.8.2021 11:08  ./Glyphr.Studio-0.5.6.AppImage
+   42  21.8.2021 20:07  ls
+   43  21.8.2021 20:07  ./install.sh
+   44  21.8.2021 20:08  sudo ./install.sh
+   45  21.8.2021 22:01  neofetch
+   46  21.8.2021 22:02  cargo install onefetch
+   47  21.8.2021 22:03  onefetch
+   48  21.8.2021 22:04  sl
+   49  21.8.2021 22:04  ls
+   50  21.8.2021 22:04  hexyl test_file.rs
+   51  21.8.2021 22:08  onefetch
+   52  21.8.2021 22:11  cd /work/Torrents/Portal.Duology/Portal\ 2
+   53  21.8.2021 22:11  ls
+   54  21.8.2021 22:11  ./start.sh
+   55  22.8.2021 12:46  ./install.sh
+   56  22.8.2021 19:02  sudo -i
+   57  22.8.2021 20:19  wget https://notion.davidbailey.codes/notion-linux.list
+   58  22.8.2021 20:19  sudo mv notion-linux.list /etc/apt/sources.list.d/notion-linux.list
+   59  22.8.2021 20:20  sudo apt update && sudo apt install notion-enhanced
+   60  23.8.2021 00:43  sudo apt install gimp
+   61  23.8.2021 00:44  neofetch
+   62  23.8.2021 14:42  htop
+   63  23.8.2021 14:42  cargo install bottom
+   64  23.8.2021 14:44  btm
+   65  23.8.2021 14:56  cd /work/outputs/Python/Projects/My\ stuff/
+   66  23.8.2021 14:56  ls
+   67  23.8.2021 14:56  code test.py
+   68  23.8.2021 14:57  j dot
+   69  23.8.2021 14:58  cd /work/outputs/dotfiles_new
+   70  23.8.2021 14:58  cd scripts
+   71  23.8.2021 14:58  ./miniconda.sh
+   72  23.8.2021 15:00  conda activate
+   73  23.8.2021 15:09  conda config --set changeps1 False
+   74  23.8.2021 15:09  conda deactivate
+   75  23.8.2021 15:10  conda config --set changeps1 False
+   76  23.8.2021 15:10  conda activate
+   77  23.8.2021 15:10  j py
+   78  23.8.2021 15:10  cd ..
+   79  23.8.2021 15:10  ..
+   80  23.8.2021 15:10  cd ..
+   81  23.8.2021 15:11  cd test
+   82  23.8.2021 15:11  ls
+   83  23.8.2021 15:11  cd imagepredictionapp
+   84  23.8.2021 15:11  ls
+   85  23.8.2021 15:11  cd ..
+   86  23.8.2021 15:11  cd handwriting-synthesis
+   87  23.8.2021 15:11  ls
+   88  23.8.2021 15:11  cd ..
+   89  23.8.2021 15:11  conda --hepl
+   90  23.8.2021 15:11  conda -h
+   91  23.8.2021 15:15  cd -
+   92  23.8.2021 15:15  ls
+   93  23.8.2021 15:15  ls -l
+   94  23.8.2021 15:15  ls -a
+   95  23.8.2021 15:16  conda create --prefix ./envs numpy
+   96  23.8.2021 15:20  conda activate ./envs
+   97  23.8.2021 15:20  python
+   98  23.8.2021 15:20  python3
+   99  23.8.2021 15:20  python3.7
+  100  23.8.2021 15:21  ls
+  101  23.8.2021 15:21  touch test.py
+  102  23.8.2021 15:21  code test.py
+  103  23.8.2021 15:22  python test.py
+  104  23.8.2021 16:31  clr
+  105  23.8.2021 16:31  neofetch
+  106  23.8.2021 16:31  ls
+  107  23.8.2021 16:31  neofetch
+  108  23.8.2021 16:33  clr
+  109  23.8.2021 16:33  exa --icons
+  110  23.8.2021 16:33  j py
+  111  23.8.2021 16:34  sudo apt install neovim
+  112  23.8.2021 16:34  nvim
+  113  23.8.2021 16:46  ls -a ~
+  114  23.8.2021 16:46  cd 
+  115  23.8.2021 16:46  touch .vimrc
+  116  23.8.2021 16:46  nano .vimrc
+  117  23.8.2021 21:21  neofetch
+  118  23.8.2021 21:45  cargo install vocage
+  119  23.8.2021 21:46  vocage --help
+  120  23.8.2021 21:48  cd /work
+  121  23.8.2021 21:48  exa --icons
+  122  23.8.2021 21:49  mkdir personal_data
+  123  23.8.2021 21:49  cd personal_data
+  124  23.8.2021 21:49  mkdir vocage_files
+  125  23.8.2021 21:49  cd vocage_files
+  126  23.8.2021 21:50  git clone https://github.com/proycon/vocadata
+  127  23.8.2021 21:50  mv -R vocadata/ru ./
+  128  23.8.2021 21:50  mv -r vocadata/ru ./
+  129  23.8.2021 21:50  mv --help
+  130  23.8.2021 21:50  mv vocadata/ru ./
+  131  23.8.2021 21:50  ls
+  132  23.8.2021 21:51  mv ru/* ./russian/
+  133  23.8.2021 21:51  mv ru/ ./russian
+  134  23.8.2021 21:51  exa --icons
+  135  23.8.2021 21:51  rm -rf vocadata
+  136  23.8.2021 21:52  exa --icons
+  137  23.8.2021 21:52  cd russian
+  138  23.8.2021 21:52  ls
+  139  23.8.2021 21:52  vocage 10000_common_words.tsv
+  140  23.8.2021 21:54  code 10000_common_words.tsv
+  141  23.8.2021 21:57  clr
+  142  23.8.2021 21:57  exa --icons
+  143  23.8.2021 21:57  cd ..
+  144  23.8.2021 21:59  cc -h
+  145  23.8.2021 21:59  cc --help
+  146  23.8.2021 21:59  touch test.tsv
+  147  23.8.2021 21:59  code test.tsv
+  148  23.8.2021 22:01  vocage test.tsv
+  149  24.8.2021 09:32  sudo -i
+  150  24.8.2021 10:16  cadmus
+  151  24.8.2021 11:39  vocage test.tsv
+  152  24.8.2021 11:40  clr
+  153  24.8.2021 11:40  rusty-rain --help
+  154  24.8.2021 11:41  rusty-rain -s
+  155  24.8.2021 19:30  wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash\nsudo apt update\nsudo apt install zotero\n
+  156  24.8.2021 20:00  ssh-keygen -t ed25519 -C "tahsinbanna@gmail.com"
+  157  24.8.2021 20:00  eval "$(ssh-agent -s)"
+  158  24.8.2021 20:00  ssh-add ~/.ssh/id_ed25519
+  159  24.8.2021 20:01  xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+  160  24.8.2021 20:02  j dot
+  161  24.8.2021 20:02  git status
+  162  24.8.2021 20:02  git push
+  163  24.8.2021 20:03  j voc
+  164  24.8.2021 20:04  code /work/outputs/Rust_test
+  165  24.8.2021 20:04  j Rust
+  166  24.8.2021 20:04  exa --icons
+  167  24.8.2021 20:05  cd prime_eratosthenes
+  168  24.8.2021 20:05  cargo run --release
+  169  24.8.2021 20:51  cadmus
+  170  25.8.2021 12:02  ttyper
+  171  25.8.2021 14:07  cadmus
+  172  27.8.2021 00:49  j Rust
+  173  27.8.2021 00:49  cd testing_nannou
+  174  27.8.2021 00:49  cargo run --release
+  175  27.8.2021 00:52  ./Vulkan.sh
+  176  27.8.2021 00:52  sudo add-apt-repository ppa:graphics-drivers/ppa\n
+  177  27.8.2021 00:53  sudo apt install vulkan vulkan-utils\n
+  178  27.8.2021 00:53  ./Vulkan.sh
+  179  27.8.2021 01:00  cargo run --release
+  180  27.8.2021 01:11  cd ../..
+  181  27.8.2021 01:11  exa --icons
+  182  27.8.2021 01:12  git clone https://github.com/nannou-org/nannou
+  183  27.8.2021 01:15  cargo run --release
+  184  27.8.2021 01:40  cd nannou
+  185  27.8.2021 01:40  exa --icons
+  186  27.8.2021 01:40  nzs
+  187  27.8.2021 01:41  ls
+  188  27.8.2021 01:42  ls -la
+  189  27.8.2021 01:42  ls
+  190  27.8.2021 01:42  cd examples
+  191  27.8.2021 01:42  ls
+  192  27.8.2021 01:42  cd nannou_basics
+  193  27.8.2021 01:42  ls
+  194  27.8.2021 01:43  cd ..
+  195  27.8.2021 01:43  cd
+  196  27.8.2021 01:43  cd -
+  197  27.8.2021 01:43  cd ..
+  198  27.8.2021 01:43  cargo run --release --example wgpu
+  199  27.8.2021 01:44  ls examples/
+  200  27.8.2021 01:45  cargo run --release --example draw
+  201  27.8.2021 01:48  ls examples/
+  202  27.8.2021 01:48  cargo run --release --example nannou_basics
+  203  27.8.2021 01:48  ls examples/nannou_basics
+  204  27.8.2021 01:48  code examples/nannou_basics/all_functions.rs
+  205  27.8.2021 01:49  code examples/communication/osc_sender.rs
+  206  27.8.2021 01:51  cargo run --release
+  207  27.8.2021 14:21  ls examples/wgpu
+  208  27.8.2021 14:21  cargo run --release --example wgpu_compute_shader
+  209  27.8.2021 14:22  code examples/wgpu/wgpu_compute_shader
+  210  27.8.2021 14:29  ls guide
+  211  27.8.2021 14:31  ls
+  212  27.8.2021 14:31  code nature_of_code
+  213  27.8.2021 15:22  cargo run --release --example 1_3_vector_subtraction
+  214  27.8.2021 15:27  j nann
+  215  27.8.2021 15:27  cargo run --release --example 1_3_vector_subtraction
+  216  27.8.2021 15:30  cargo run --release --example 1_4_vector_multiplication
+  217  27.8.2021 16:01  xargs sudo apt-get install <packages.txt
+  218  27.8.2021 16:02  apt list --installed
+  219  27.8.2021 16:03  mdadm --help
+  220  27.8.2021 18:19  cargo run --release --example 1_5_vector_magnitude
+  221  27.8.2021 18:48  cargo run --release
+  222  27.8.2021 18:49  code ~/.config/pop-shell/config.json
+  223  27.8.2021 18:51  cargo run --release
+  224  27.8.2021 18:52  cargo run --release --example 1_5_vector_magnitude
+  225  27.8.2021 18:55  xprop --hepl
+  226  27.8.2021 18:56  xprop -name nannou
+  227  27.8.2021 18:56  xprop -grammer
+  228  27.8.2021 18:56  xprop -grammar
+  229  27.8.2021 18:58  xprop -name 1_5_vector_magnitude
+  230  27.8.2021 19:14  neofetch
+  231  27.8.2021 19:14  cargo run --release
+  232  27.8.2021 20:10  gsettings set org.gnome.shell.extensions.dash-to-dock multi-monitor true
+  233  27.8.2021 20:11  gsettings set org.gnome.shell.extensions.dash-to-dock multi-monitor false
+  234  27.8.2021 20:17  cargo run --release
+  235  27.8.2021 20:17  cargo run --release --example 1_5_vector_magnitude
+  236  27.8.2021 20:18  cargo run --release
+  237  27.8.2021 21:35  rusty-rain -s
+  238  27.8.2021 21:36  rusty-rain --help
+  239  27.8.2021 21:36  rusty-rain -c alphalow -s
+  240  27.8.2021 21:48  j Rust
+  241  27.8.2021 21:48  j Voca
+  242  27.8.2021 21:48  cd /work/personal_data/vocage_files
+  243  27.8.2021 21:48  j Rust
+  244  27.8.2021 21:48  j voc
+  245  27.8.2021 21:48  clr
+  246  27.8.2021 21:50  j Rust
+  247  27.8.2021 21:50  j voc
+  248  27.8.2021 21:51  j dow
+  249  27.8.2021 21:51  j Rust
+  250  27.8.2021 21:51  ls
+  251  27.8.2021 21:51  hexyl Readme.md
+  252  27.8.2021 21:52  cargo run --release
+  253  28.8.2021 00:50  neofetch
+  254  28.8.2021 11:57  cadmus
+  255  28.8.2021 16:36  uname -a
+  256  28.8.2021 16:36  uname -r
+  257  28.8.2021 16:36  uname --help
+  258  28.8.2021 16:51  btm
+  259  28.8.2021 21:40  j Rust
+  260  28.8.2021 21:42  cd  ../tahsintariq.github.io
+  261  28.8.2021 21:43  clr
+  262  28.8.2021 21:48  curl v3.wttr.in/Bayern.sxl
+  263  28.8.2021 21:48  sudo apt install kitty
+  264  28.8.2021 21:49  ls -la
+  265  28.8.2021 21:50  ls
+  266  28.8.2021 21:50  ls -la
+  267  28.8.2021 21:50  curl v3.wttr.in/Bayern.sxl
+  268  28.8.2021 21:51  curl -s v3.wttr.in/Dhaka.sxl | kitty icat --align=left
+  269  28.8.2021 21:52  curl -s v3.wttr.in/London.sxl | kitty icat --align=left
+  270  28.8.2021 21:53  curl wttr.in
+  271  28.8.2021 21:55  curl v2d.wttr.in
+  272  28.8.2021 21:55  clr
+  273  28.8.2021 21:55  curl v2d.wttr.in
+  274  28.8.2021 22:02  curl -s v3.wttr.in/Dhaka.sxl | kitty icat --align=left
+  275  28.8.2021 22:02  curl v2d.wttr.in
+  276  28.8.2021 22:03  curl -s v3.wttr.in/Dhaka.sxl | kitty icat --align=left
+  277  28.8.2021 22:12  rusty-rain -c alphalow -s
+  278  28.8.2021 22:14  clr
+  279  28.8.2021 22:14  rusty-rain -c alphalow -s
+  280  28.8.2021 22:21  neofetch --hepl
+  281  28.8.2021 22:21  neofetch --help
+  282  28.8.2021 22:23  neofetch --kitty /work/backups/images/shaan.jpg
+  283  28.8.2021 22:27  touch kitty.conf
+  284  28.8.2021 22:28  ls
+  285  28.8.2021 22:28  touch theme.conf
+  286  28.8.2021 22:29  ls
+  287  28.8.2021 22:29  j Rust
+  288  28.8.2021 22:33  clr
+  289  28.8.2021 22:33  ls
+  290  28.8.2021 22:37  neofetch --kitty ~/Pictures/tihan.png
+  291  28.8.2021 22:37  ls
+  292  28.8.2021 22:45  sudo apt-get install fish
+  293  28.8.2021 22:47  which fish
+  294  28.8.2021 22:49  git clone https://github.com/Falkgaard/falk-term-dotfiles
+  295  28.8.2021 23:09  curl -s v3.wttr.in/Dhaka.sxl | kitty icat --align=left
+  296  28.8.2021 23:13  curl v2d.wttr.in
+  297  29.8.2021 14:43  \n
+  298  29.8.2021 14:51  neofetch
+  299  29.8.2021 15:06  j process
+  300  29.8.2021 15:06  j processing
+  301  29.8.2021 15:06  cd tahsin
+  302  29.8.2021 15:06  j tahsin
+  303  29.8.2021 15:43  ls
+  304  29.8.2021 20:05  cadmus
+  305  31.8.2021 21:00  j Down
+  306  31.8.2021 21:00  w --help
+  307  31.8.2021 21:01  wget https://www.fontspace.com/get/family/e2g8d
+  308  31.8.2021 21:01  ls
+  309  31.8.2021 21:02  curl https://www.fontspace.com/get/family/e2g8d horizon.zip
+  310  31.8.2021 21:02  ls
+  311  31.8.2021 21:02  wget https://get.fontspace.co/download/family/e2g8d/cfffc106092f44c7af0c6c46b0332933/horizon-font.zip
+  312  31.8.2021 21:02  ls
+  313  31.8.2021 21:03  unzip horizon-font.zip 
+  314  31.8.2021 21:03  rm -rf info.txt
+  315  31.8.2021 21:04  cp Horizon-nMeM.ttf ~/.fonts
+  316  31.8.2021 21:04  sudo cp Horizon-nMeM.ttf ~/.fonts
+  317  31.8.2021 21:04  rm -rf Horizon-nMeM.ttf
+  318  31.8.2021 21:04  fc-cache -f -v
+  319  31.8.2021 21:05  fc-cache -f -v|grep horizon
+  320  31.8.2021 21:07  fc-cache -f -v
+  321  31.8.2021 21:08  j pyth
+  322  31.8.2021 21:08  cd Projects
+  323  31.8.2021 21:09  cd Class_Work/Intro_to_AI/Graph
+  324  31.8.2021 21:09  ls
+  325  31.8.2021 21:09  code Generalized_Search.py
+  326  1.9.2021 13:25  cadmus
+  327  1.9.2021 14:23  cargo --help
+  328  1.9.2021 14:23  cargo r --help
+  329  1.9.2021 14:24  cargo help run
+  330  1.9.2021 16:08  j portals2
+  331  1.9.2021 16:08  ./start.sh
+  332  2.9.2021 09:48  cadmus
+  333  2.9.2021 12:56  sudo apt install pdfmixtool
+  334  2.9.2021 22:51  j out
+  335  2.9.2021 22:51  cd os_telemetry
+  336  2.9.2021 22:51  code .
+  337  2.9.2021 22:53  j os
+  338  2.9.2021 22:53  cargo run
+  339  2.9.2021 23:10  cadmus
+  340  5.9.2021 15:50  j Rust
+  341  5.9.2021 15:54  clr
+  342  5.9.2021 15:59  sl
+  343  5.9.2021 16:04  ls
+  344  5.9.2021 16:08  cd testing_nannou
+  345  5.9.2021 16:08  ls
+  346  5.9.2021 16:08  cd shapes
+  347  5.9.2021 16:08  ;s
+  348  5.9.2021 16:08  ls
+  349  5.9.2021 16:08  cargo run
+  350  5.9.2021 16:17  cargo run --release
+  351  7.9.2021 12:32  cadmus
+  352  7.9.2021 12:38  j class
+  353  7.9.2021 12:39  cd ../../..
+  354  7.9.2021 12:39  cd ..
+  355  7.9.2021 12:39  code .
+  356  7.9.2021 13:10  source /work/Software/miniconda3/bin/activate
+  357  7.9.2021 13:10  conda activate base
+  358  7.9.2021 13:10  conda install --name base black -y
+  359  7.9.2021 13:43  conda remove black
+  360  7.9.2021 17:32  j Doc
+  361  7.9.2021 17:32  j Docu
+  362  7.9.2021 17:32  cd ~/Documents
+  363  7.9.2021 17:32  cd AI\ exam\ files
+  364  7.9.2021 17:32  touch general_search.py
+  365  7.9.2021 17:33  cat /work/outputs/Python/Projects/Class_Work/Intro_to_AI/Graph/Generalized_Search.py >> ~/Documents/AI\ exam\ files/general_search.py
+  366  7.9.2021 17:34  conda activate
+  367  7.9.2021 17:34  conda activate base
+  368  7.9.2021 17:34  python
+  369  7.9.2021 17:34  starship --help
+  370  7.9.2021 17:35  starship config
+  371  7.9.2021 17:55  j class
+  372  7.9.2021 17:55  conda activate base
+  373  7.9.2021 17:55  python BFS_DFS_using_the_new_graph.py
+  374  7.9.2021 18:06  python Generalize_test.py
+  375  7.9.2021 19:10  touch general_bfs.py
+  376  7.9.2021 19:11  code general_bfs.py
+  377  7.9.2021 19:13  python ~/Documents/AI\ exam\ files/general_bfs.py
+  378  7.9.2021 20:14  rfkill block wifi
+  379  7.9.2021 20:14  rfkill unblock wifi
+  380  7.9.2021 20:16  python ~/Documents/AI\ exam\ files/general_bfs.py
+  381  7.9.2021 20:29  python Search.py
+  382  7.9.2021 20:29  python Generalize_test.py
+  383  7.9.2021 20:32  python ~/Documents/AI\ exam\ files/general_bfs.py
+  384  7.9.2021 21:06  cd ../Adversareal\ Search
+  385  7.9.2021 21:07  python MinMax.py
+  386  7.9.2021 21:14  python Alpha_Beta_pruning.py
+  387  7.9.2021 21:58  touch test.py
+  388  7.9.2021 21:58  code test.py
+  389  7.9.2021 22:04  python test.py
+  390  7.9.2021 22:04  ls
+  391  7.9.2021 22:05  python test.py
+  392  8.9.2021 00:25  ls
+  393  8.9.2021 00:26  python general_bfs.py
+  394  8.9.2021 09:40  code --disable-gpu
+  395  8.9.2021 09:49  python MinMax.py
+  396  8.9.2021 10:08  python general_search.py
+  397  8.9.2021 11:58  python MinMax.py
+  398  8.9.2021 12:52  curl https://github.com/TahsinTariq/Python/blob/master/Projects/Class_Work/Intro_to_AI/Graph/Generalized_Search.py
+  399  8.9.2021 12:52  clr
+  400  8.9.2021 14:46  python test.py
+  401  8.9.2021 15:59  10 0
+  402  8.9.2021 15:59  python test.py
+  403  12.9.2021 13:48  cadmus
+  404  13.9.2021 17:46  j os
+  405  13.9.2021 17:46  sl
+  406  13.9.2021 17:46  ls
+  407  13.9.2021 17:46  cargo run --release
+  408  15.9.2021 18:57  cadmus
+  409  15.9.2021 18:57  py
+  410  15.9.2021 18:58  j project
+  411  15.9.2021 18:58  cd Class_Work/PY_basics
+  412  15.9.2021 18:58  ls
+  413  16.9.2021 12:55  systemd-notify "something"
+  414  16.9.2021 12:55  systemd-notify --help
+  415  20.9.2021 13:58  cadmus
+  416  22.9.2021 13:09  code /work/outputs/temp_classification
+  417  22.9.2021 15:54  cadmus
+  418  3.10.2021 14:48  cd -
+  419  4.10.2021 17:55  code
+  420  4.10.2021 17:56  touch exam.txt
+  421  4.10.2021 17:56  code exam.txt
+  422  4.10.2021 19:26  sudo apt update
+  423  5.10.2021 19:45  cadmus
+  424  6.10.2021 16:02  rusty-rain -c alphalow -s
+  425  6.10.2021 16:03  neofetch\\n
+  426  7.10.2021 19:21  cadmus
+  427  16.10.2021 16:27  cd ../
+  428  16.10.2021 16:27  ls
+  429  16.10.2021 16:27  ./PureRef-1.11.1_x64.Appimage
+  430  17.10.2021 20:39  cadmus
+  431  20.10.2021 15:13  ../PureRef-1.11.1_x64.Appimage
+  432  20.10.2021 18:46  cadmus
+  433  27.10.2021 01:45  touch exam.txt
+  434  27.10.2021 01:45  code exam.txt
+  435  27.10.2021 17:50  btm
+  436  27.10.2021 18:37  cadmus
+  437  31.10.2021 18:03  cd ..
+  438  31.10.2021 18:03  ./PureRef-1.11.1_x64.Appimage
+  439  31.10.2021 20:26  cadmus
+  440  5.11.2021 00:24  ./PureRef-1.11.1_x64.Appimage
+  441  5.11.2021 12:58  cadmus
+  442  5.11.2021 12:58  ./PureRef-1.11.1_x64.Appimage
+  443  6.11.2021 12:20  cadmus
+  444  6.11.2021 12:20  ./PureRef-1.11.1_x64.Appimage
+  445  7.11.2021 08:50  cadmus
+  446  7.11.2021 08:50  ./PureRef-1.11.1_x64.Appimage
+  447  8.11.2021 10:36  cadmus
+  448  8.11.2021 10:36  ./PureRef-1.11.1_x64.Appimage
+  449  10.11.2021 17:05  cadmus
+  450  12.11.2021 19:55  sudo su
+  451  12.11.2021 19:56  btm
+  452  12.11.2021 19:56  rusty-rain -c alphalow -s
+  453  12.11.2021 19:56  neofetch
+  454  12.11.2021 19:56  ls
+  455  12.11.2021 19:57  clr
+  456  12.11.2021 19:57  cd outputs/Rust_test
+  457  12.11.2021 19:58  clr
+  458  13.11.2021 01:35  neofetch
+  459  15.11.2021 00:20  cadmus
+  460  16.11.2021 12:59  ./PureRef-1.11.1_x64.Appimage
+  461  16.11.2021 12:59  cd ..
+  462  16.11.2021 12:59  ./PureRef-1.11.1_x64.Appimage
+  463  18.11.2021 10:56  neofetch
+  464  19.11.2021 14:46  cadmus
+  465  23.11.2021 18:05  killall --h
+  466  23.11.2021 18:06  killall -l
+  467  23.11.2021 18:06  killall --l
+  468  23.11.2021 18:06  kill --h
+  469  23.11.2021 18:06  kill -h
+  470  23.11.2021 18:06  kill libre
+  471  23.11.2021 18:06  ps
+  472  23.11.2021 18:06  btm
+  473  24.11.2021 00:20  cadmus
+  474  24.11.2021 00:20  cadmus --h
+  475  24.11.2021 00:21  cadmus
+  476  8.1.2022 20:49  conda info --envs
+  477  8.1.2022 20:50  j out
+  478  8.1.2022 20:50  ls
+  479  8.1.2022 20:50  cd shifat_vaia
+  480  8.1.2022 20:50  ls
+  481  8.1.2022 20:50  mkdir test_gdown
+  482  8.1.2022 20:51  conda create --prefix ./envs jupyter
+  483  8.1.2022 20:52  j shifat
+  484  8.1.2022 20:52  mv -r  ./envs ./test_gdown
+  485  8.1.2022 20:52  mv  ./envs ./test_gdown
+  486  8.1.2022 20:52  ls
+  487  8.1.2022 20:52  cd test_gdown
+  488  8.1.2022 20:53  ls
+  489  8.1.2022 20:53  conda activate
+  490  8.1.2022 20:53  envs/b
+  491  8.1.2022 20:53  envs/bin
+  492  8.1.2022 20:53  ls
+  493  8.1.2022 20:54  cd ..
+  494  8.1.2022 20:54  ./envs/bin
+  495  8.1.2022 20:54  code
+  496  8.1.2022 20:54  code .
+  497  8.1.2022 20:54  cd ../..
+  498  8.1.2022 20:54  code .
+  499  8.1.2022 20:55  touch test.ipynb
+  500  8.1.2022 20:58  conda install nb_conda
+  501  8.1.2022 21:01  conda activate
+  502  8.1.2022 21:01  conda activate base
+  503  8.1.2022 21:01  conda activate
+  504  8.1.2022 21:01  cona info
+  505  8.1.2022 21:01  conda info
+  506  8.1.2022 21:01  source ./envs/bin
+  507  8.1.2022 21:01  conda info
+  508  8.1.2022 21:02  conda list
+  509  8.1.2022 21:16  ls
+  510  8.1.2022 21:16  rm -rf NAS-Bench-201-v1_0-e61699.ptht44tefd7tmp 
+  511  8.1.2022 22:24  conda activate base
+  512  8.1.2022 22:25  conda install pytorch
+  513  8.1.2022 23:07  conda install altair
+  514  8.1.2022 23:12  conda install pandas
+  515  9.1.2022 15:04  cadmus
+  516  9.1.2022 15:07  j shifat
+  517  9.1.2022 15:07  cd test_gdown
+  518  9.1.2022 15:07  code .
+  519  9.1.2022 15:17  ls
+  520  14.1.2022 20:48  code
+  521  14.1.2022 20:51  j sifat
+  522  14.1.2022 20:51  ls
+  523  14.1.2022 20:51  cd test_gdown
+  524  14.1.2022 20:52  ls
+  525  14.1.2022 21:14  cadmus
+  526  14.1.2022 23:08  conda install plotly
+  527  20.1.2022 19:35  code
+  528  20.1.2022 19:40  cadmus
+  529  20.1.2022 19:44  j sifat
+  530  20.1.2022 19:44  ls
+  531  20.1.2022 19:44  cd test_gdown
+  532  20.1.2022 19:44  ls
+  533  25.1.2022 13:41  code
+  534  25.1.2022 13:41  ls
+  535  25.1.2022 13:42  j out
+  536  25.1.2022 13:42  ls
+  537  25.1.2022 13:44  mkdir latex_class
+  538  25.1.2022 13:44  cd latex_class
+  539  25.1.2022 13:44  code .
+  540  25.1.2022 13:45  clr
+  541  25.1.2022 13:45  ls
+  542  25.1.2022 13:46  git init
+  543  25.1.2022 13:46  ls
+  544  25.1.2022 13:48  ls -la
+  545  25.1.2022 14:02  cadmus
+  546  25.1.2022 18:50  code
+  547  25.1.2022 18:50  j latex
+  548  25.1.2022 18:50  ls
+  549  25.1.2022 18:50  j latex
+  550  25.1.2022 18:50  ls -la
+  551  25.1.2022 19:02  cadmus
+  552  31.1.2022 08:31  code
+  553  31.1.2022 08:31  cd dip
+  554  31.1.2022 08:31  j dip
+  555  31.1.2022 08:31  j out
+  556  31.1.2022 08:31  ls
+  557  31.1.2022 08:33  cadmus
+  558  31.1.2022 10:00  mkdir dip_labs
+  559  31.1.2022 10:00  cd dip_labs
+  560  31.1.2022 10:00  touch test.ipynb
+  561  31.1.2022 10:00  code test.ipynb
+  562  31.1.2022 10:01  conda activate base
+  563  31.1.2022 10:01  pip install pil
+  564  31.1.2022 10:01  pip install PIL
+  565  31.1.2022 10:01  pip install Pillow
+  566  14.2.2022 11:36  cadmus
+  567  7.4.2022 14:04  cd /work/outputs/dotfiles
+  568  7.4.2022 14:04  ../dotfiles_new
+  569  7.4.2022 14:04  ls
+  570  7.4.2022 14:04  git --help
+  571  7.4.2022 14:04  git diff
+  572  7.4.2022 14:05  code .
+  573  7.4.2022 14:06  git push
+  574  7.4.2022 14:06  code .
+  575  7.4.2022 14:12  cd /work/outputs/dotfiles_new
+  576  7.4.2022 14:12  code .
+  577  7.4.2022 14:13  history
